@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+
+{%  block content %}
+
+<div id="top" class="allC">
+ 
+<header class="top-header clearfix">
+
+<div class="container">
+<div class="row">
+<div class="span12">
+<div id="logo" ><a href="{% url 'listing' %}"><img width="250" height="200" src="{% static 'images/logo.png' %}" alt=""/></a></div>
+ 
+   
+<div class="closePage"><a href="javascript:history.back()">Close</a></div>
+
+</div>
+</div>
+</div>
+
+</header>
+
+<div class="container project content-load">
+<div class="row">
+
+<div class="span12">
+
+<div class="icon">
+<img src="{% static "images/icon-portfolio.png" %}" alt="" />
+</div><!--end icon -->
+
+  
+<h2 class="section-title"><strong Aggregated Data for {{ state.name}} State </h2>
+
+ 
+
+<div class="proj-info clearfix"></div></div>
+	<table class="table table-striped table-bordered">
+ <thead><tr> <th>Maps available </th></tr></thead>
+						<tbody>
+						
+                            
+{% for s in state.statedocument_set.all %}
+<tr><td> <a href="{{MEDIA_URL}}{{ s.filepath }}" title="Click here to download file">{{s.filename}}</a></td></tr>
+
+{% empty %}
+<tr><td>No documents here</td></tr>
+{% endfor %}
+						</tbody>
+</table>
+{% if state.maps %}
+<div class="go-visit"><a href="{{MEDIA_URL}}{{state.maps}}">View State Map</a></div>
+
+{% endif %}
+</div>
+
+
+
+
+
+</div><!--end row-->
+
+</div><!--end container-->
+
+
+</div><!--end allC-->
+
+{%  endblock %}

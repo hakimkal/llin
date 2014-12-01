@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!--BEGIN SECTION Maps Listing-->
+<section id="blog" class="mutualWrap sectP">
+<div class="container">
+<div class="row">
+<div class="span12">
+
+<div class="icon">
+ <img src="images/icon-blog.png" alt="" />
+
+</div><!--end icon -->
+<form method="post" action="">
+    {% csrf_token %}
+  <p>  username: {{ form.username }}</p>
+    
+     <p>  firstname:{{ form.first_name }}</p>
+     <p>  lastname:{{ form.last_name }}</p>
+    <p>  password: {{form.password1}}</p>
+    <p>  password confirm: {{form.password2}}</p>
+     <p>  email:{{form.email}}</p>
+    
+    <input type="submit" />
+    
+</form>
+</div></div></div></section>
+{% endblock %}

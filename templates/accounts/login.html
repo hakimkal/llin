@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<br/>
+<br/>
+<section id="home" class="mutualWrap sectP" style="width:60% !important; height: 460px; margin:0 35% 0 35%;">
+<div class="row contact-form">
+
+<form method="post"  action='' style="margin-top:20%;">
+
+    
+    {% csrf_token %}
+    <div class="span5">
+      
+<input type="text" name="username" id="author" class="comm-field"  value="username" size="22" tabindex="1"
+       required="required"  />
+   		 	<input type="password"  name="password" value="password" class="comm-field"  required="required"  tabindex="3"  />
+		<input name="submit" type="submit" id="submit" style="width: auto !important; margin:0 35% 0 35%;" tabindex="5" value="Signin" />
+     </div>
+
+ 	</form>
+
+
+</div><!--end row contact-form -->
+
+</section>
+{% endblock %}

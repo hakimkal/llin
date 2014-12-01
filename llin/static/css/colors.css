@@ -1,0 +1,242 @@
+
+/*==========================================================================================
+	
+This file contains styles related to the colour scheme of the theme
+
+==========================================================================================*/
+
+
+
+a{color:#21E29A;text-decoration:none;
+}
+a:hover{text-decoration:underline;
+color:#21E29A;
+}
+
+body{color:#909090;
+background:#ffffff;
+font-size:14px;
+}
+
+h1,h2,h3, h4,h5,h6, #menu-my-menu{font-family:'Open Sans', Arial, sans-serif;}
+
+.dropcap{color:#21E29A;}
+
+.top-header{background:#ffffff;
+-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+-moz-box-shadow:    0px 1px 3px rgba(0, 0, 0, 0.2);
+box-shadow:         0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#menu-my-menu li a{color:#909090;
+text-decoration:none;
+}
+#menu-my-menu li a:hover, #menu-my-menu li a:focus, #menu-my-menu li a.active{color:#000000;
+text-decoration:none;
+background:none;}
+
+.flex-caption{color: #3f3f3f;}
+.flex-caption h1, .flex-caption h4{background:#ffffff;}
+
+.flex-viewport, .single-img{
+border-bottom:10px solid #21E29A;
+border-top:10px solid #21E29A;
+}
+#clients .flex-viewport{border:none;}
+
+.section-title, .section-sub-title, .item-name{color:#3f3f3f;
+font-family:'Open Sans', Arial, sans-serif;}
+
+.section-quote{color:#88F2BF;border-left: 1px solid #88F2BF;}
+.section-quote span{color:#909090;}
+
+/*** ABOUT ***/
+
+#about{background:#ffffff url('../images/pat1.png') repeat 0 0;}
+
+.diamond{background:#c0c0c0;}
+
+.mask-member{background:#88F2BF;}
+
+.job-pos{border-bottom:1px solid #d5d5d5;}
+
+.progressBkg{background:#3f3f3f;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.barBkg{background:#21E29A;}
+
+/*** END ABOUT ***/
+
+/*** JOIN TEAM ***/
+
+#join-team h1{color:#21E29A;}
+#join-team{background:#3f3f3f url('../images/bkg-diam.png') repeat 0 0;}
+#join-team p{color:#ffffff;}
+.join-button a{background:#21E29A;
+color:#3f3f3f;
+border:1px solid #21E29A;
+}
+.join-button a:hover{background:#ffffff;
+color:#3f3f3f;
+border:1px solid #ffffff;
+text-decoration:none;}
+
+/*** END JOIN TEAM ***/
+
+/*** PORTFOLIO ***/
+
+#portfolio{background:#ffffff url('../images/pat2.png') repeat 0 0;}
+#portfolio .section-title, #portfolio .section-sub-title, #portfolio .item-name{color:#3f3f3f;}
+
+#work-filter li a{background:#3f3f3f;
+color:#ffffff;
+border:none;
+-webkit-transition: all 0.3s ease-out 0s;
+-moz-transition: all 0.3s ease-out 0s;
+-o-transition: all 0.3s ease-out 0s;
+-ms-transition: all 0.3s ease-out 0s;
+transition: all 0.3s ease-out 0s;
+}
+#work-filter li a:hover{background:#21E29A;
+color:#3f3f3f;
+text-decoration:none;}
+
+.work-categ li, .work-more, .post-img .mask{background:#21E29A;
+color:#3f3f3f;
+}
+
+.work-item .mask{background:rgba(33, 226, 154, 0.9);}
+
+.project h1{color:#3f3f3f;}
+.project h4{color:#21E29A;}
+
+.go-visit a{background:#3f3f3f;
+color:#ffffff;
+padding:14px 21px;
+border:none;
+display:block;
+-webkit-transition: all 0.3s ease-out 0s;
+-moz-transition: all 0.3s ease-out 0s;
+-o-transition: all 0.3s ease-out 0s;
+-ms-transition: all 0.3s ease-out 0s;
+transition: all 0.3s ease-out 0s;
+}
+.go-visit a:hover{background:#21E29A;
+color:#3f3f3f;
+text-decoration:none;}
+
+/*** END PORTFOLIO ***/
+
+/*** CLIENTS ***/
+
+#clients h1{color:#21E29A;}
+#clients{background:#3f3f3f url('../images/pat6.png') repeat 0 0;}
+
+/*** END CLIENTS ***/
+
+/*** SERVICES ***/
+
+#services{background:#ffffff url('../images/pat3.png') repeat 0 0;}
+#services .section-title, #services .section-sub-title, #services .item-name{color:#3f3f3f;}
+#services .diamond{background:#21E29A;border:none;}
+
+/*** END SERVICES ***/
+
+/*** PRICING TABLE ***/
+
+#pricing h1{color:#21e29a;}
+#pricing{background:#3f3f3f url('../images/pat7.png') repeat 0 0;}
+
+.table-column{background:#f7f7f7;}
+.column-title{color:#3f3f3f; background:#88F2BF;}
+.column-price{color:#3f3f3f;background:#21E29A;}
+
+.column-features li{color:#909090;border-bottom:1px solid #e5e5e5;}
+.column-features li:last-child{border:none;}
+
+.quote a{background:#88F2BF;
+color:#3f3f3f;
+-webkit-transition: all 0.3s ease-out 0s;
+-moz-transition: all 0.3s ease-out 0s;
+-o-transition: all 0.3s ease-out 0s;
+-ms-transition: all 0.3s ease-out 0s;
+transition: all 0.3s ease-out 0s;
+}
+.quote a:hover{background:#21E29A;
+color:#3f3f3f;
+text-decoration:none;}
+
+/*** END PRICING TABLE ***/
+
+/*** BLOG ***/
+#blog{background:#ffffff url('../images/pat4.png') repeat 0 0;}
+#blog .section-title, #blog .section-sub-title, #blog .item-name{color:#3f3f3f;}
+
+
+.published, .comm-title, #comments-title {color:#3f3f3f;
+border-top:1px solid #c0c0c0;
+border-bottom:1px solid #c0c0c0;
+padding:7px 0;}
+.post-title, .post-title a, .published a{color:#3f3f3f;}
+.post-title a:hover, .published a:hover{color:#21E29A;}
+
+.read-more a, .closePage a{background:#3f3f3f;
+color:#ffffff;
+border:1px solid #3f3f3f;}
+
+.read-more a:hover, .closePage a:hover{background:#21E29A;
+color:#3f3f3f;
+border:1px solid #21E29A;
+text-decoration:none;}
+
+input.comm-field, #comment, #message2, input.comm-field:focus, #message2:focus, #comment:focus {border:1px solid #c0c0c0;
+border-left: 5px solid #21E29A;
+color:#909090;}
+
+.comment-body {border-bottom: 1px solid #c0c0c0; }
+.comment-author .author a:link, .comment-author .author a:visited { color: #353535;}
+.comment-author .author a:hover { color: #21E29A; }
+.comment-reply-link, #cancel-comment-reply-link{ color: #3f3f3f; font-size: 12px }
+.comment-reply-link:hover, #cancel-comment-reply-link:hover { color: #21E29A; }
+
+input.comm-field:focus, #message2:focus, #comment:focus {}
+
+#submit, #submit-comm{
+color: #ffffff;
+background: #3f3f3f;
+border: 1px solid #3f3f3f;
+
+-webkit-transition: all 0.3s ease-out 0s;
+-moz-transition: all 0.3s ease-out 0s;
+-o-transition: all 0.3s ease-out 0s;
+-ms-transition: all 0.3s ease-out 0s;
+transition: all 0.3s ease-out 0s;
+}
+#submit:hover, #submit:active, #submit-comm:hover, #submit-comm:active{
+background:#21E29A;
+border: 1px solid #21E29A;
+color: #3f3f3f;
+}
+.output2{border:1px solid #ff0000;}
+
+.widgettitle{color:#3f3f3f;
+border-left:5px solid #21E29A;}
+
+.sidebar-articles ul li a, .widget_archive ul li a{color:#3f3f3f;border:none;}
+.sidebar-articles ul li a:hover, .widget_archive ul li a:hover{color:#21E29A;border:none;}
+
+.flickr img{border:3px solid #3f3f3f;-webkit-transition: border-color 0.5s ease;-moz-transition: border-color 0.5s ease;
+-o-transition: border-color 0.5s ease;transition: border-color 0.5s ease;}
+.flickr img:hover{border:3px solid #21E29A;}
+
+/*** END BLOG ***/
+
+#social-media h1{color:#21e29a;}
+#social-media{background:#3f3f3f url('../images/bkg-diam.png') repeat 0 0;}
+
+#contact{background:#ffffff url('../images/pat5.png') repeat 0 0;}
+#contact .section-title, #contact .section-sub-title, #contact .item-name{color:#3f3f3f;}
+
+h4.trigger a{color:#3f3f3f;}
+h4.trigger:hover{background-color:#88F2BF;}
+

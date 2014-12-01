@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load staticfiles %}
+
+<!--<iframe id="2D Reeel" src="{% url 'states_list' %}" width="400" height="600" name="stateslistingframe" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+ -->
+ <iframe id="goldratt"   height="700" src="{% static 'statplanet/web/StatPlanet.html' %}"  name="statesmapsframe" frameborder="0" allowfullscreen>
+</iframe> 
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="span-1-offset span3"><a href="#" class="btn button success"> Download Infographic Tutorial </a></div>
+
+ <style type="text/css">
+    iframe{}
+    #2D{width: 28% !important;}
+    #goldratt{width: 100% !important;}
+    
+ </style>
+{% endblock %}
+
+ 
+    

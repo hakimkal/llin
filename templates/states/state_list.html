@@ -26,11 +26,7 @@
 <div class="container">
 <div class="row">
 <div class="span12 sub-sec-title">
-
-<div class="icon">
- <img src="{%static 'images/icon-about.png' %}" alt="" />
-</div><!--end icon -->
-
+ 
 <div class="sub-sec-title">  
 <h1><strong>ABOUT</strong></h1>
 </div>
@@ -57,98 +53,7 @@ By using Geographic information system (GIS) applications and interactive infogr
 <!--END SECTION ABOUT-->
 
 <!--BEGIN SECTION BLOG-->
-<section id="blog" class="mutualWrap sectP">
-<div class="container">
-<div class="row">
-<div class="span12">
-
-<div class="icon">
- <img src="{% static "images/icon-blog.png" %}" alt="" />
-
-</div><!--end icon -->
-  
-<h2 class="section-title">Blog</h2>
-
-<h3 class="section-quote">"The way you communicate an idea is different than the way you communicate a product"<span> - Frank Luntz</span></h3>
-
-<div class="row">
-<div class="span6 post no-b">
-<a href="#">
-<div class="post-img">
-<img width="770" height="300" src="{% static "images/blog/blog-1.jpg" %}" alt="Culpa qui officia deserunt" title="" /><div class="mask"><div class="mask-elem"><img src="images/more-img.png" alt="more" />
-</div>
-</div><!--end mask-->
-</div><!--end post-img-->
-</a>
-<div class="post-container">
-<h4 class="post-title no-b"><a href="#">Culpa qui officia deserunt</a></h4>
-<div class="published no-b">March 13th, 2013 | <a href="#" title="">News</a> | <a href="#" title="">3 Comments</a></div>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo sapien felis. Pellentes faucibus sollicitudin ante, at porta felis rutrum...</p></div>
-<div class="read-more"><a href="page-blog-single.html">Read More</a></div>
-
-</div><!--end post-->
-        			
-<div class="span6 post no-b">
-<a href="#">
-<div class="post-img">
-<img width="770" height="300" src="{% static "images/blog/blog-2.jpg" %}" alt="Porta felis rutrum eget" title="" /><div class="mask"><div class="mask-elem"><img src="images/more-img.png" alt="more" />
-</div>
-</div><!--end mask-->
-</div><!--end post-img-->
-</a>
-<div class="post-container">
-<h4 class="post-title no-b"><a href="#">Porta felis rutrum eget</a></h4>
-<div class="published no-b">March 12th, 2013 | <a href="#" title="View all posts in News" rel="category">News</a> | <a href="#" title="Comment on Porta felis rutrum eget">No comments</a></div>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo sapien felis. Pellentes faucibus sollicitudin ante, at porta felis rutrum...</p></div>
-<div class="read-more"><a href="page-blog-single.html">Read More</a></div>
-
-</div><!--end post-->
-              
-				
-				 </div><!--end row--> 		                
-                               
-  		
- <div class="row">
-<div class="span6 post no-b">
-<a href="#">
-<div class="post-img">
-<img width="770" height="300" src="{% static "images/blog/blog-3.jpg" %}" alt="Ellentes faucibus sollicitudin" title="" /><div class="mask"><div class="mask-elem"><img src="images/more-img.png" alt="more" />
-</div>
-</div><!--end mask-->
-</div><!--end post-img-->
-</a>
-<div class="post-container">
-<h4 class="post-title no-b"><a href="p#">Ellentes faucibus sollicitudin</a></h4>
-<div class="published no-b">March 11th, 2013 | <a href="#" title="View all posts in News" rel="category">News</a> | <a href="#" title="Comment on Ellentes faucibus sollicitudin">No comments</a></div>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo sapien felis. Pellentes faucibus sollicitudin ante, at porta felis rutrum...</p></div>
-<div class="read-more"><a href="page-blog-single.html">Read More</a></div>
-
-</div><!--end post-->
-                     
-<div class="span6 post no-b">
-<a href="page-blog-single.html">
-<div class="post-img">
-<img width="770" height="300" src="{% static "images/blog/blog-4.jpg" %}" alt="Nean eget odio vel" title="" /><div class="mask"><div class="mask-elem"><img src="images/more-img.png" alt="more" />
-</div>
-</div><!--end mask-->
-</div><!--end post-img-->
-</a>
-<div class="post-container">
-<h4 class="post-title no-b"><a href="#">Nean eget odio vel</a></h4>
-<div class="published no-b">March 10th, 2013 | <a href="#" title="View all posts in News" rel="category">News</a> | <a href="#" title="Comment on Nean eget odio vel">No comments</a></div>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo sapien felis. Pellentes faucibus sollicitudin ante, at porta felis rutrum...</p></div>
-<div class="read-more"><a href="page-blog-single.html">Read More</a></div>
-
-</div><!--end post-->
-
-</div><!--end row--> 		    
-
-</div><!--end span12 -->
-</div><!--end row -->
-</div><!--end container -->
-</section><!--end-blog-->
-
-<!--END SECTION BLOG-->
+ 
 
 <!-- END BLOG -->
 
@@ -159,7 +64,7 @@ By using Geographic information system (GIS) applications and interactive infogr
 <div id="world-map">
 <div class="row">
 <div class="span12">
-<img src="images/world-map.png" alt="" />
+<img src="{% static "images/world-map.png" %}" alt="" />
 </div>
 </div>
 </div>
@@ -168,7 +73,7 @@ By using Geographic information system (GIS) applications and interactive infogr
 <div class="span12">
 
 <div class="icon">
-<img src="images/icon-contact.png" alt="" />
+<img src="{% static "images/icon-contact.png" %}" alt="" />
 </div><!--end icon -->
 
 <h2 class="section-title">Contact Us</h2>
@@ -183,29 +88,11 @@ By using Geographic information system (GIS) applications and interactive infogr
     <div id="office0" class="toggle_container">
    <p>
      
-<strong>Address:</strong> Company Street nr 1 New York, USA<br/>
+<strong>Address:</strong> F15 Febson Mall, Wuse Zone 4. Abuja<br/>
 
-<strong>Phone:</strong> (+00) 000 000 0000<br/>
+<strong>Phone:</strong> (+234) 803 285 2549<br/>
 
-<strong>Email:</strong> contact@website.com
-
-     </p>    </div>
-
-</div>
-
-
-<div class="span4">
-
-    <h4 class="trigger"><a href="#office1">Lagos Office</a></h4>
-     
-    <div id="office1" class="toggle_container">
-    <p>
-     
-<strong>Address:</strong> Company Street nr 1 London, UK<br/>
-
-<strong>Phone:</strong> (+00) 000 000 0000<br/>
-
-<strong>Email:</strong> contact@website.com
+<strong>Email:</strong> shokami@yahoo.com
 
      </p>    </div>
 
@@ -214,27 +101,22 @@ By using Geographic information system (GIS) applications and interactive infogr
 
 <div class="span4">
 
-    <h4 class="trigger"><a href="#office2">Borno Office</a></h4>
      
-    <div id="office2" class="toggle_container">
-    <p>
-     
-<strong>Address:</strong> Company Street nr 1 Berlin, Germany<br/>
+</div>
 
-<strong>Phone:</strong> (+00) 000 000 0000<br/>
 
-<strong>Email:</strong> contact@website.com
+<div class="span4">
 
-     </p>    </div>
-
+       
+   
 </div>
 
 </div> <!--end row offices -->
 
 <div class="row contact-form">
 
-<form method="post" id="my-form" action='#'>
-
+<form method="post" id="my-form2" action='{% url 'contactus' %}'>
+{% csrf_token %}
      <div class="span7">
         <textarea name="message" id="message2" cols="100%" rows="11" tabindex="4"></textarea>
         
@@ -242,9 +124,9 @@ By using Geographic information system (GIS) applications and interactive infogr
         </div>
     
     <div class="span5">
-<input type="text" name="author" id="author" class="comm-field"  value="Name" size="22" tabindex="1" onFocus="if(this.value=='Name')this.value='';" onBlur="if(this.value=='')this.value='Name';" />
+<input type="text" name="name" id="author" class="comm-field"  value="Name" size="22" tabindex="1" onFocus="if(this.value=='Name')this.value='';" onBlur="if(this.value=='')this.value='Name';" />
    		<input type="text" name="email" id="email" class="comm-field" value="Email" size="22" tabindex="2" onFocus="if(this.value=='Email')this.value='';" onBlur="if(this.value=='')this.value='Email';"  />
-   		<input type="text" name="title" id="title" class="comm-field" value="Subject" size="22" tabindex="3" onFocus="if(this.value=='Subject')this.value='';" onBlur="if(this.value=='')this.value='Subject';" />
+   		<input type="text" name="subject" id="title" class="comm-field" value="Subject" size="22" tabindex="3" onFocus="if(this.value=='Subject')this.value='';" onBlur="if(this.value=='')this.value='Subject';" />
 		<input name="submit" type="submit" id="submit" tabindex="5" style="width:90%;" value="Send Message" />
      </div>
 

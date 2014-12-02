@@ -1,9 +1,13 @@
 from django.shortcuts import render
 from django.views.generic import ListView, DetailView
+from django.views.generic.edit import FormView
 from .models import State
 from homepagebanners.models import Homepagebanner
 from states_documents.models import StateDocument
+from .forms import ContactForm
+from django.core.mail import send_mail
 
+from django.contrib import messages
 class StateListing(ListView):
     model = State
     
@@ -44,3 +48,13 @@ class StateDetailView(DetailView):
     model = State
     #d = State.StateDocument.objects.all()
     #print d
+
+class ContactUs(FormView):
+    form_class = ContactForm
+    success_url = '/'
+    def form_valid(self, form):
+       # This method is called when valid form data has been POSTed.
+       # It should return an HttpResponse.
+       form.send_email()
+       return super(ContactUs, self).form_valid(form)
+    

@@ -9,7 +9,7 @@
  <img src="{% static "images/logo.png" %}" width="220" height="160" alt=""/></a>
  </div>
  
- <ul id="menu-my-menu" class="menu">
+ <ul id="menu-my-menu" class="menu" style="margin-top:40px;">
  <li><a href="{% url 'listing' %}#top">Home</a></li>
  <li><a href="#join-team">About LLIN-A Project</a></li>
  <li><a href="{% url 'maps' %}">Data Analysis Tool</a></li>
@@ -23,7 +23,7 @@
   <li><a href="{% url 'login' %}">Signin</a></li>
  <!--<li><a href="{% url 'register' %}">Signup</a></li>-->
 {% endif %}
- <li><a href="#blog">Blog</a></li>
+
  <li><a href="{% url 'listing' %}#contact">Contact</a></li>
  </ul>
 

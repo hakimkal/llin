@@ -11,8 +11,8 @@ else:
     DBPASS = 'hotoro'
 
 #EMAIL SMTP
-EMAIL_HOST = "smtp.webfaction.com"
+EMAIL_HOST = "boxxtra.ipower.com"
 EMAIL_PORT = 587
-EMAIL_HOST_USER =  "primegate"
-EMAIL_HOST_PASSWORD = "primegate1nfo"
+EMAIL_HOST_USER =  "info@leproghrammeen.com"
+EMAIL_HOST_PASSWORD = "dansaw"
 EMAIL_USE_TLS = True

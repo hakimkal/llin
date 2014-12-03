@@ -6,6 +6,7 @@ from homepagebanners.models import Homepagebanner
 from states_documents.models import StateDocument
 from .forms import ContactForm
 from django.core.mail import send_mail
+from django.contrib.messages.views import SuccessMessageMixin
 
 from django.contrib import messages
 class StateListing(ListView):
@@ -49,12 +50,15 @@ class StateDetailView(DetailView):
     #d = State.StateDocument.objects.all()
     #print d
 
-class ContactUs(FormView):
+class ContactUs(SuccessMessageMixin, FormView):
     form_class = ContactForm
     success_url = '/'
     def form_valid(self, form):
+        
        # This method is called when valid form data has been POSTed.
        # It should return an HttpResponse.
-       form.send_email()
-       return super(ContactUs, self).form_valid(form)
+        if form.send_email() == True :
+           success_message='Thanks for your email, we will be in touch'
+                
+        return super(ContactUs, self).form_valid(form)
     

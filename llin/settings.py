@@ -33,11 +33,11 @@ TEMPLATE_DEBUG = True
 if DEBUG == True:
     ALLOWED_HOSTS = []
 else:
-    ALLOWED_HOSTS = ['.llin.com']
+    ALLOWED_HOSTS = ['.shokami.webfactional.com']
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+
 
 
 # Application definition

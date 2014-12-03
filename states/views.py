@@ -5,10 +5,11 @@ from .models import State
 from homepagebanners.models import Homepagebanner
 from states_documents.models import StateDocument
 from .forms import ContactForm
-from django.core.mail import send_mail
+
 from django.contrib.messages.views import SuccessMessageMixin
 
-from django.contrib import messages
+
+
 class StateListing(ListView):
     model = State
     

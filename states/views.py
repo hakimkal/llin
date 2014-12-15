@@ -55,7 +55,7 @@ class ContactUs(SuccessMessageMixin, FormView):
     form_class = ContactForm
     success_url = '/'
     def form_valid(self, form):
-        
+		#form.cleaned
        # This method is called when valid form data has been POSTed.
        # It should return an HttpResponse.
         if form.send_email() == True :
